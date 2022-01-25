@@ -1,0 +1,274 @@
+body {
+    background: #EBF4FF;
+
+}
+body p{
+	font-size:15px;
+    color: #002f61;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+}
+.navbar-brand{
+font-size: 17px;
+font-weight: bold;
+color: #002f61;
+width: 200px;
+text-align: left;
+
+}
+
+.navbar-nav a{
+    text-align: center;
+    width: 100px;
+    color: #002f61;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar button{
+    width: 110px;
+    border-radius: 8px;
+}
+.btn-outline-primary {
+    color: #002f61;
+    font-weight: bold;
+}
+
+/*section-1*/
+.section-1 .row-top{
+    height: 400px;
+    padding-top: 80px;
+}
+.section-1 .rowt-left{
+    padding-right: 70px;
+}
+.section-1 .row-top h1{
+    display: inline-block;
+    font-size: 65px;
+    font-weight: bold;
+    color: #002f61;
+}
+.section-1 .row-top button{
+    border-radius: 10px;
+}
+
+
+.section-1 .row-top h6{
+    display: inline-block;
+    padding: 5px;
+    color: #2a7ee6;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.section-1 .row-bottom img{
+    width: 100%;
+}
+
+.section-1 .row-bottom .col-md-2{
+    width: 100%;
+}
+.section-1 .row-bottom .col-md-2 h2{
+    color: #2a7ee6;
+    font-weight: bold;
+    font-size: 50px;
+}
+/*section-2*/
+.section-2 .rowt{
+    padding: 100px 250px 25px 250px;
+}
+
+
+.card{
+    border: 3px solid #fff ;
+    border-radius: 15px;
+}
+.card-body button{
+    border: 0px;
+    border-color: #fff;
+    background: #EBF4FF;
+    border-radius: 10px;
+}
+
+.card-body .col-10 p{
+    margin: 0;
+    padding-top: 3px;
+
+}
+.card-body .col-10 i{
+    color: #3284e9;
+}
+
+.card-body .col-2-arrow{
+	display:inline-block;
+    background: #EBF4FF;
+    width: 40px;
+    height: 40px;
+    border: 1px solid ;
+    border-radius: 50%;
+
+}
+.card-body .col-2-arrow i{
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 3px;
+
+}
+
+.card-body .col-2-arrow:hover {
+    background: #3284e9;
+    border: 1px solid #fff;
+}
+.card-body .col-2-arrow:hover i{
+    color: #fff;
+
+}
+
+/*section-3*/
+
+.row-out{
+	padding-top:100px;
+}
+.row-out .col-md-6 h1{
+	padding-bottom:15px;
+}
+
+.row-student .col-4 h2{
+	color: #2a7ee6;
+}
+.row-out .background-item1{
+	width:80px;
+	height:80px;
+	background: orange;
+	border: 1px solid orange;
+	border-radius:20px;
+}
+.row-out .background-item2{
+	width:80px;
+	height:80px;
+	background: purple;
+	border: 1px solid purple;
+	border-radius:20px;
+}
+.row-out .background-item3{
+	width:80px;
+	height:80px;
+	background: #2a7ee6;
+	border: 1px solid #2a7ee6;
+	border-radius:20px;
+}
+.row-out .item{
+	font-size: 35px;
+	color:white;
+	margin:0;
+	padding-top: 15px;
+}
+.row-student{
+	padding-top:20px;
+}
+
+.section-3 .col-right>p{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+/*section-4*/
+
+.section-4 .rowt{
+    padding: 50px 250px 25px 250px;
+}
+
+/*section-5*/
+
+.section-5 .row-right{
+	padding-top:50px;
+}
+
+.section-5 .detail{
+	padding-top:20px;
+}
+
+.section-5 .detail i{
+	font-size:35px;
+	color:#2a7ee6;
+	vertical-align:middle;
+}
+
+.section-5 .button{
+	padding-top:30px;
+}
+.outside{
+	width:100%;
+}
+.inside{
+    position:absolute;
+    top: 265px;
+    left: -94px;
+    width: 300px;
+    border: 15px solid #fff;
+    border-radius: 10px;
+}
+
+/*section-6*/
+
+.row-detail{
+	padding: 50px 10px 50px 40px;
+	background: #2a7ee6;
+	border: 1px solid #2a7ee6;
+	border-radius:20px;
+}
+
+.row-detail .col-7{
+	color:white;
+}
+
+.row-detail .col-5{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.row-detail button{
+	border-radius:20px;
+}
+.section-6 .row-out{
+		padding-bottom:100px;
+}
+
+/*footer*/
+
+footer a{
+	display: block;
+	font-size:18px;
+	padding: 7px 0;
+}
+.footer-title{
+	padding-bottom:20px;
+}
+
+footer .col-5{
+	padding-right:100px;
+}
+
+footer .col-5 p {
+	padding-top:30px;
+}
+
+footer .col-5 i {
+	padding-right:30px;
+	font-size: 22px;
+}
+footer .col-5 .linkedin{
+display:inline;
+color:#2a7ee6;
+}
+
+
+.sticky{
+	position: fixed;
+	top:0;
+	width:100%;
+	background: #EBF4FF;
+	z-index:999;
+	transition: all 1.5s ease;
+}

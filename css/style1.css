@@ -1,0 +1,132 @@
+body {
+    background: #EBF4FF;
+
+}
+body p{
+    color: #002f61;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+}
+.navbar-brand{
+font-size: 17px;
+font-weight: bold;
+color: #002f61;
+width: 200px;
+text-align: left;
+
+}
+
+.navbar-nav a{
+    text-align: center;
+    width: 100px;
+    color: #002f61;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar button{
+    width: 110px;
+    border-radius: 8px;
+}
+.btn-outline-primary {
+    color: #002f61;
+    font-weight: bold;
+}
+
+/*section-1*/
+.section-1 .row-top{
+    height: 400px;
+    padding-top: 80px;
+}
+.section-1 .rowt-left{
+    padding-right: 70px;
+}
+.section-1 .row-top h1{
+    display: inline-block;
+    font-size: 65px;
+    font-weight: bold;
+    color: #002f61;
+}
+.section-1 .row-top button{
+    border-radius: 10px;
+}
+
+
+.section-1 .row-top h6{
+    display: inline-block;
+    padding: 5px;
+    color: #2a7ee6;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.section-1 .row-bottom img{
+    width: 100%;
+}
+
+.section-1 .row-bottom .col-md-2{
+    width: 100%;
+}
+.section-1 .row-bottom .col-md-2 h2{
+    color: #2a7ee6;
+    font-weight: bold;
+    font-size: 50px;
+}
+/*section-2*/
+.section-2 .rowt{
+    padding: 100px 250px 25px 250px;
+}
+
+.card{
+    border: 3px solid #fff ;
+    border-radius: 15px;
+}
+.card-body button{
+    border: 0px;
+    border-color: #fff;
+    background: #EBF4FF;
+    border-radius: 10px;
+}
+
+.card-body .col-10 p{
+    margin: 0;
+    padding-top: 3px;
+
+}
+.card-body .col-10 i{
+    color: #3284e9;
+}
+
+.card-body .col-2{
+    background: #EBF4FF;
+    width: 35px;
+    height: 40px;
+    border: 1px solid ;
+    border-radius: 50%;
+
+}
+.card-body .col-2 i{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 0;
+}
+
+.card-body .col-2:hover {
+    background: #3284e9;
+    border: 1px solid #fff;
+}
+.card-body .col-2:hover i{
+    color: #fff;
+
+}
+.inside{
+    position:absolute;
+    top: 300px;
+    left: -100px;
+    width: 300px;
+    border: 15px solid #fff;
+    border-radius: 10px;
+}
